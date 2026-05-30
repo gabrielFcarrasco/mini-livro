@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  /* A nossa Paleta de Cores */
+  --color-primary-light: #2D6A4F;
+  --color-primary-dark: #1B4332;
+  --color-secondary-light: #E9C46A;
+  --color-secondary-dark: #D4A373;
+  --color-paper-light: #FFF8E7;
+  --color-paper-dark: #F4F1DE;
+
+  /* A nossa Tipografia */
+  --font-title: "Cormorant Garamond", serif;
+  --font-body: "Libre Baskerville", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--color-primary-dark);
+  color: var(--color-paper-light);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
