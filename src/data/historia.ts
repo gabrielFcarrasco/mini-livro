@@ -35,6 +35,10 @@ export const livroData: Capitulo[] = [
     id: "capitulo-1",
     titulo: "Capítulo 1 — O Encontro",
     ehSubtitulo: true,
+    imagem: {
+      url: '/img-cap1.png', // ou .png, dependendo de como salvou na pasta public
+      posicaoDepoisDoParagrafo: 5 // Aparece após "Respondeu o homem, envergonhado."
+    },
     paragrafos: [
       "Em um jardim, existia um certo homem com uma aparência calma e tranquila. Ele cuidava daquilo que lhe havia sido incumbido e, talvez naquele tempo, apenas fazia sem perceber o quanto estava estagnado.",
       "Até que, certo dia, caminhando distraído, acabou esbarrando em uma pessoa que, de um pulo, assustou-se.",
@@ -56,6 +60,10 @@ export const livroData: Capitulo[] = [
     id: "capitulo-2",
     titulo: "Capítulo 2 — O Jardim",
     ehSubtitulo: true,
+    imagem: {
+      url: '/img-cap2.png',
+      posicaoDepoisDoParagrafo: 11 // Aparece no final do capítulo
+    },
     paragrafos: [
       "Conforme Vitória ia ganhando espaço em seu jardim, ela começou a ajudar em sua organização.",
       "Aquilo que parecia calmo demais começou a movimentar-se mais, mas isso não foi algo ruim, de modo algum.",
@@ -75,6 +83,10 @@ export const livroData: Capitulo[] = [
     id: "capitulo-3",
     titulo: "Capítulo 3 — As Colisões",
     ehSubtitulo: true,
+    imagem: {
+      url: '/img-cap3.png',
+      posicaoDepoisDoParagrafo: 6 // Aparece após "amar um ao outro."
+    },
     paragrafos: [
       "Algumas vezes eles colidiram, nisso não posso negar.",
       "Às vezes, ela queria que ele fosse mais acelerado, enquanto ele queria que ela desacelerasse um pouco.",
@@ -92,6 +104,10 @@ export const livroData: Capitulo[] = [
     id: "capitulo-4",
     titulo: "Capítulo 4 — O Lar",
     ehSubtitulo: true,
+    imagem: {
+      url: '/img-cap4.png',
+      posicaoDepoisDoParagrafo: 7 // Aparece após "encontrou nela um lar."
+    },
     paragrafos: [
       "E voltando ao escritor que Vitória descobriu ao garimpar o jardim dele…",
       "Parece até bem doido imaginar que alguém poderia escrever tantas coisas sobre amor sem nunca ter vivido algo assim antes.",
@@ -109,6 +125,10 @@ export const livroData: Capitulo[] = [
     id: "capitulo-5",
     titulo: "Capítulo 5 — As Flores",
     ehSubtitulo: true,
+    imagem: {
+      url: '/img-cap5.png',
+      posicaoDepoisDoParagrafo: 10 // Aparece no final do capítulo
+    },
     paragrafos: [
       "Neste Dia dos Namorados, parece que Gabriel quer tentar, de alguma forma, mostrar o quanto ela sempre foi importante para ele.",
       "No primeiro Dia dos Namorados, acabaram indo ao shopping comer batata frita na praça de alimentação.",

@@ -1,6 +1,6 @@
 // src/components/Capa.tsx
 import { motion } from 'framer-motion';
-import capaImg from '../assets/capa-genesis.png';
+import capaImg from '../assets/capa-genesis.jpg';
 
 export default function Capa({ onOpen }: { onOpen: () => void }) {
   return (

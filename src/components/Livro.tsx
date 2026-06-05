@@ -88,15 +88,25 @@ export default function Livro() {
                 {livroData[page].titulo}
               </h2>
 
-              {/* Parágrafos do Capítulo Atual */}
+             {/* Parágrafos do Capítulo Atual com Imagens Intercaladas */}
               <div className="space-y-6">
                 {livroData[page].paragrafos.map((texto, index) => (
-                  <p 
-                    key={index} 
-                    className="font-body text-lg md:text-xl text-paper-dark leading-relaxed text-justify first-letter:font-title"
-                  >
-                    {texto}
-                  </p>
+                  <div key={index} className="space-y-6">
+                    <p className="font-body text-lg md:text-xl text-paper-dark leading-relaxed text-justify first-letter:font-title">
+                      {texto}
+                    </p>
+
+                    {/* MÁGICA: Se houver imagem e o índice bater com a posição, renderiza a imagem */}
+                    {livroData[page].imagem && livroData[page].imagem?.posicaoDepoisDoParagrafo === index && (
+                      <div className="w-full flex justify-center py-6 md:py-10">
+                        <img
+                          src={livroData[page].imagem.url}
+                          alt={`Ilustração do ${livroData[page].titulo}`}
+                          className="max-w-full h-auto mix-blend-multiply"
+                        />
+                      </div>
+                    )}
+                  </div>
                 ))}
               </div>
             </motion.div>
