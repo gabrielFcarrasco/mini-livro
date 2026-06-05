@@ -130,7 +130,7 @@ export default function Livro() {
               </p>
 
               <a
-                href="/Gênesis - O Início Da Nossa História.epub"
+                href="/genesis.epub"
                 download="Gênesis - O Início Da Nossa História.epub"
                 className="inline-flex items-center gap-3 font-sans font-medium uppercase tracking-[0.2em] px-8 py-4 border border-secondary-dark text-secondary-light bg-black/40 backdrop-blur-md hover:bg-secondary-light hover:text-primary-dark transition-all duration-500 rounded-sm shadow-xl cursor-pointer text-xs md:text-sm"
               >
