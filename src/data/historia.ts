@@ -66,7 +66,7 @@ export const livroData: Capitulo[] = [
     ehSubtitulo: true,
     imagem: {
       url: '/img-cap2.png',
-      posicaoDepoisDoParagrafo: 11 // Aparece no final do capítulo
+      posicaoDepoisDoParagrafo: 6
     },
     paragrafos: [
       "Conforme Vitória ia ganhando espaço em seu jardim, ela começou a ajudar em sua organização.",
