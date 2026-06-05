@@ -3,6 +3,10 @@ export interface Capitulo {
   titulo: string;
   ehSubtitulo: boolean; // Ajuda a definir o tamanho da fonte (Prólogo maior, capítulos menores)
   paragrafos: string[];
+  imagem?: {
+    url: string;
+    posicaoDepoisDoParagrafo: number;
+  };
 }
 
 export const livroData: Capitulo[] = [
